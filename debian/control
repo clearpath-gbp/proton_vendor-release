@@ -1,0 +1,12 @@
+Source: ros-jazzy-proton-vendor
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), git, libasio-dev, libprotobuf-dev, libprotoc-dev, libyaml-cpp-dev, protobuf-compiler, python3-protobuf, ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-proton-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libasio-dev, libprotobuf-dev, libprotoc-dev, libyaml-cpp-dev, protobuf-compiler, python3-protobuf, ros-jazzy-ros-workspace
+Description: Proton vendor package
